@@ -21,9 +21,9 @@ const pageVariants = {
 }
 
 const pageTransition = {
-  type: "tween",
-  ease: "easeInOut",
-  duration: 0.3
+  type: "tween" as const,
+  ease: "anticipate" as const,
+  duration: 0.5,
 }
 
 export default function Home() {
